@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --font-family: 'Sora', 'Inter';
+    --primary-color: #0B6BA8;
+    --hover-color: #50C9F9;
+    --secondary-color: #A00DA0;
+    --text-color: #0B050C;
+    --text-hover: #FFFFFF;
+    --footer-color: #8A6EC621;
+}
