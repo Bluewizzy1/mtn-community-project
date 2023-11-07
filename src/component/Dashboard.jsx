@@ -132,7 +132,7 @@ const Dashboard = () => {
           <div className="publish-btn">
             <div className="publish-img">
               <div className="photo1">
-              <img src={Photo} alt='photo' className='photo' />
+              <img src={Photo} alt='' className='photo' />
               </div>
               <div className="photo2">
                 <img src={Videocamera} alt='Videocamera' className='videocamera' />

@@ -784,7 +784,7 @@ p {
 .div3 {
   display: flex;
   width: 100%;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .mobile-con{
