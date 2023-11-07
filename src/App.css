@@ -1613,11 +1613,6 @@ p {
     margin: 0 6rem;
   }
 
-  .div2b {
-    /* flex-direction: column; */
-    /* margin-top: 2rem; */
-  }
-
   .div3 {
     margin: 9rem;
     width: 50%;
@@ -1678,8 +1673,42 @@ p {
     margin: 0;
   }
 
-  
+  .abouteam {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
 
+  .about-container {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 15rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-right: -2rem;
+  }
+  .about-container h3 {
+    display: flex;
+    justify-content: center;
+  }
 
+  .about-container-one {
+    flex-direction: column;
+  }
+
+  .mission-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mission, .vision {
+    width: 40%;
+  }
+
+  .mission img, .vision img {
+    margin-left: 5rem;
+  }
 }
+
 
