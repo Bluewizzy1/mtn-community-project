@@ -833,7 +833,6 @@ p {
   height: 4rem;
   margin-top: 1rem;
   width: 10rem;
-
 }
 
 .get-text {
@@ -1534,7 +1533,7 @@ p {
   margin-top: 1.9rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .btn-twwo, .trust-text, .trustt-text, .handshake {
     margin-left: 0;
   }
@@ -1543,6 +1542,7 @@ p {
     flex-direction: column;
     max-width: 100%;
     width: 100%;
+    margin-bottom: 5rem;
   }
 
   .community h2 {
@@ -1555,16 +1555,97 @@ p {
     line-height: 24px;
   }
 
-  .div1{
+
+  .what-we-offer-containers {
+    flex-direction: column;
+    /* max-width: 100%; */
+    width: 100%;
+    margin:3rem;
+    margin-bottom: 70rem;
+    margin-left: 6rem;
+  }
+  
+  .first-what-we-offer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+    /* max-width: 100%; */
+  }
+  
+  .second-what-we-offer-container {
+    flex-direction: column;
+    margin-top: 30rem;
+    gap: 2rem;
+  }
+
+  .what-we-offer-one {
+    margin-left: 2rem;
+  }
+  .what-we-offer-three {
+    margin-left: 2rem;
+  }
+
+  .testimonial {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 25rem;
+    align-items: center;
+    margin-left: 10rem;
+  }
+
+  .testimonial h2 {
+    margin-left: -15rem;
+  }
+
+  .test {
     flex-direction: column;
   }
 
+  .div1{
+    flex-direction: column;
+  }
+  .div2a {
+    flex-direction: column;
+  }
+
+  .div2 {
+    margin: 0 6rem;
+  }
+
+  .div2b {
+    /* flex-direction: column; */
+    /* margin-top: 2rem; */
+  }
+
+  .div3 {
+    margin: 9rem;
+    width: 50%;
+  }
+  .div3 img{
+    width: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  }
+  .div3 p {
+    font-size: 11px;
+  }
+
+  .btn1 {
+    width: 10rem;
+    height: 5rem;
+  }
+  .btn2 {
+    width: 10rem;
+    height: 5rem;
+  }
+  
   .footer{
-    padding: 2rem 7rem;
+    padding: 1rem 5rem;
+    width: 100%;
   }
 
   .handshake {
-    /* margin-left: 100px; */
     width: 250px;
     height: 250px;
     margin-top: -1.5rem;
@@ -1596,6 +1677,8 @@ p {
   .navbar-lists .fsave {
     margin: 0;
   }
+
+  
 
 
 }
